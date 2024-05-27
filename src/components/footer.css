@@ -4,8 +4,10 @@
   --list-font-weight: 400;
 }
 
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
 p,
@@ -36,20 +38,18 @@ a {
 }
 
 .header {
-  font-size: 1em;
-}
-
-hr {
-  margin-bottom: 4rem;
+  font-size: 1rem;
 }
 
 .footer-container {
   display: flex;
   justify-content: space-evenly;
+  border-top: 1px solid grey;
+  padding-top: 3.6em;
 }
 
 .services {
   display: flex;
   flex: 0.6;
-  gap: 1em;
+  gap: 4.4em;
 }
