@@ -14,7 +14,7 @@ function Footer() {
           <ul type="none">
             <li className="product header">Product</li>
             <li>Docs</li>
-            <li>What's new</li>
+            <li>What&apos;s new</li>
           </ul>
           <ul type="none">
             <li className="Build header">Build</li>
