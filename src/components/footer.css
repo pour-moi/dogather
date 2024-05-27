@@ -1,5 +1,4 @@
 :root {
-  --list-color: #61c554;
   --main-font: "Inter";
   --header-font-weight: 600;
   --list-font-weight: 400;
@@ -10,7 +9,8 @@ body {
 }
 
 p,
-.hand-title {
+.hand-title,
+.header {
   font-family: var(--main-font);
   font-weight: var(--header-font-weight);
 }
@@ -31,20 +31,19 @@ li:not(.header) {
 }
 
 .header {
-  font-weight: var(--header-font-weight);
   font-size: 1em;
-  font-family: var(--main-font);
 }
 
 hr {
-  margin-bottom: 65px;
+  margin-bottom: 4rem;
 }
 
 .footer-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .services {
   display: flex;
+  gap: 3em;
 }
