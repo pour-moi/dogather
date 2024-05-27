@@ -4,7 +4,6 @@ import Hand from "../assets/Hand.svg";
 function Footer() {
   return (
     <>
-      <hr />
       <div className="footer-container ">
         <div className="hand-title">
           <img src={Hand} />
