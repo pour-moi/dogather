@@ -13,26 +13,48 @@ function Footer() {
         <div className="services">
           <ul type="none">
             <li className="product header">Product</li>
-            <li>Docs</li>
-            <li>What&apos;s new</li>
+            <li>
+              <a href="#">Docs</a>
+            </li>
+            <li>
+              <a href="#">What&apos;s new</a>
+            </li>
           </ul>
           <ul type="none">
             <li className="Build header">Build</li>
-            <li>Templates</li>
-            <li>API docs</li>
-            <li>Guids & tutorials</li>
-            <li>Become and affiliate</li>
+            <li>
+              <a href="#">Templates</a>
+            </li>
+            <li>
+              <a href="#">API docs</a>
+            </li>
+            <li>
+              <a href="#">Guids & tutorials</a>
+            </li>
+            <li>
+              <a href="#">Become and affiliate</a>
+            </li>
           </ul>
           <ul type="none">
             <li className="get_started header">Get started</li>
-            <li>Sign up</li>
-            <li>Log in</li>
+            <li>
+              <a href="#">Sign up</a>
+            </li>
+            <li>
+              <a href="#">Log in</a>
+            </li>
           </ul>
           <ul type="none">
             <li className="resources header">Resources</li>
-            <li>About us</li>
-            <li>Email us</li>
-            <li>Terms & privacy</li>
+            <li>
+              <a href="#">About us</a>
+            </li>
+            <li>
+              <a href="#">Email us</a>
+            </li>
+            <li>
+              <a href="#">Terms & privacy</a>
+            </li>
           </ul>
         </div>
       </div>

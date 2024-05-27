@@ -18,16 +18,21 @@ p,
 .hand-title {
   display: flex;
   align-self: self-start;
+  flex: 0.2;
 }
 
 li {
   font-family: var(--main-font);
   font-weight: var(--list-font-weight);
-  line-height: 2em;
+  line-height: 2.3em;
 }
 
-li:not(.header) {
+li a {
   color: #61c554;
+}
+
+a {
+  text-decoration: none;
 }
 
 .header {
@@ -45,5 +50,6 @@ hr {
 
 .services {
   display: flex;
-  gap: 3em;
+  flex: 0.6;
+  gap: 1em;
 }
