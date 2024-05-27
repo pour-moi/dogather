@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+
+p {
+  display: inline;
+  font-family: "Inter";
+  font-weight: 600;
+}
+
+.hand-title {
+  font-family: "Inter";
+  font-weight: 600;
+}
+
+li {
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: 22px;
+}
+
+li:not(.header) {
+  color: #61c554;
+}
+
+.header {
+  font-weight: 600;
+  font-size: 1em;
+  font-family: "Inter";
+}
+
+.footer-container {
+  display: flex;
+  border-top: 1px solid black;
+  height: 275px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.services {
+  display: flex;
+  /* justify-content: right; */
+}
